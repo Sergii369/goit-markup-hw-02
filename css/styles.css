@@ -170,8 +170,9 @@ a {
 .page-portfolio-titel {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
+  line-height: 1.11;
+  letter-spacing: 0.02em; 
+  text-transform: capitalize 
   text-align: center;
   color: #2e2f42;
 }
