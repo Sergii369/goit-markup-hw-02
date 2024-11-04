@@ -68,3 +68,88 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+.page-hero {
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.page-feature {
+  background-color: #ffffff;
+}
+
+.feature-titel {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.feature-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #434455;
+}
+
+.page-our-teams {
+  width: 1440px;
+  height: 732px;
+  top: 1016px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f4f4fd;
+}
+
+.page-our-times-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.times-titel {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.times-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
