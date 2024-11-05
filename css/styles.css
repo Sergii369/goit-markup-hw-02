@@ -70,11 +70,6 @@ a {
 }
 
 .page-hero {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
   background-color: #2e2f42;
 }
 
@@ -95,6 +90,11 @@ a {
   text-align: left;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+
+.hero-button:hover .hero-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
 }
 
 .page-feature {
@@ -120,22 +120,22 @@ a {
 }
 
 .page-our-teams {
-  width: 1440px;
-  height: 732px;
-  top: 1016px;
-  gap: 0px;
-  opacity: 0px;
   background-color: #f4f4fd;
 }
 
 .page-our-times-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
+
+.our-teams-item {
+  background-color: #ffffff;
+}
+
 .times-titel {
   font-size: 20px;
   font-weight: 500;
@@ -155,15 +155,6 @@ a {
 }
 
 .page-portfolio {
-  width: 1128px;
-  height: 1000px;
-  top: 1868px;
-  left: 156px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border-width: 1px, 1px, 1px, 1px;
-  border-style: solid;
   background-color: #e7e9fc;
 }
 
@@ -171,8 +162,8 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em; 
-  text-transform: capitalize 
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
