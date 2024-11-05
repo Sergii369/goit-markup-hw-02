@@ -82,7 +82,8 @@ a {
   color: #ffffff;
 }
 
-.hero-button {
+.hero-button,
+.button-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -90,9 +91,11 @@ a {
   text-align: left;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
-.hero-button:hover .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
@@ -127,6 +130,7 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -163,6 +167,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
